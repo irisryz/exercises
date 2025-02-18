@@ -2,6 +2,8 @@
 
 
 // sol 1
+
+/*
 class MergeStringsAlt {
     public String mergeAlternately(String word1, String word2) {
         String save = "";
@@ -20,6 +22,21 @@ class MergeStringsAlt {
         }
 
         sol += save;
+        return sol;
+
+    }
+} */ 
+
+class Solution {
+    public String mergeAlternately(String word1, String word2) {
+        String sol = "";
+        
+        for(int i = 0; i < Math.min(word1.length(), word2.length()); i++) {
+            sol += word1.charAt(i);
+            sol += word2.charAt(i);
+        }
+
+        sol += word1.substring(Math.min(word1.length(), word2.length())) + word2.substring(Math.min(word1.length(), word2.length()));
         return sol;
 
     }
