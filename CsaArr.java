@@ -88,4 +88,23 @@ public class main {
         }
         return index;
     }
+
+    import java.util.ArrayList;
+    
+    public static ArrayList countingNumbers(int par) {
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        for (int i =1 ; i <= par; i++) {
+            list.add(i);
+        }
+        return list;
+    }
+    
+    public static void remShort(ArrayList<String> list) {
+        for (String str : list) {
+            if (str.length() < 3) {
+                list.remove(list.indexOf(str));
+                }
+            }
+        }
+    }
 }
