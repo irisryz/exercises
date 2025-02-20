@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.ArrayList;
 
 public class main {
     public static void main(String[] args) {
@@ -88,8 +89,6 @@ public class main {
         }
         return index;
     }
-
-    import java.util.ArrayList;
     
     public static ArrayList countingNumbers(int par) {
         ArrayList<Integer> list = new ArrayList<Integer>();
