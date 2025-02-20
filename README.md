@@ -4,6 +4,7 @@ csaArr.java:
 - some csa exercises using arrays 
 
 leetcode:
-- merge string alternatively
-- find the difference
-- find first instance
+- merge string alternatively 1768
+- find the difference 389
+- find first instance 28
+- valid anagram 242
