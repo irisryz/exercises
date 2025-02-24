@@ -5,8 +5,7 @@ class Solution {
         boolean isGood;
         ArrayList<Integer> listDivisors = new ArrayList<>();
 
-        // Find all divisors of s.length()
-        for (int i = 1; i <= s.length() / 2; i++) { // Fix the range
+        for (int i = 1; i <= s.length() / 2; i++) { 
             if (s.length() % i == 0) {
                 listDivisors.add(i);
             }
